@@ -68,6 +68,14 @@ time_label = matrixportal.add_text(
 )
 
 
+reset_label = matrixportal.add_text(
+    text_font=terminalio.FONT,
+    text_position=(0, (matrixportal.graphics.display.height // 2) + 10),
+    scrolling=False,
+    text_scale=1,
+)
+
+
 SCROLL_DELAY = 0.03
 
 colors = [
@@ -89,12 +97,20 @@ while True:
         last_displayed_time = formatted_time
 
 
-    # if current_time.hour + 1 == 8 and current_time.minute < 1 and current_time.second < 30:
-    if current_time.hour + 1 == 21 and current_time.minute == 15 and current_time.second < 30:
+    if current_time.hour + 1 == 8 and current_time.minute == 0 and current_time.second < 30:
+
+        # Clear previous messages
+        matrixportal.set_text("", index=time_label)
+        matrixportal.set_text("", index=first_row)
+        matrixportal.set_text("", index=second_row)
+
+        for remaining in range(30, 0, -1):
+            matrixportal.set_text("Reset in {}".format(remaining), index=reset_label)
+            time.sleep(1)
 
         print('Reset device...')
 
-        time.sleep(60)
+        time.sleep(30)
         supervisor.reload()
 
 
@@ -106,3 +122,7 @@ while True:
         # Odd second: Set another color
         matrixportal.set_text_color(colors[0]['color_2'], index=first_row)
         matrixportal.set_text_color(colors[0]['color_1'], index=second_row)
+
+
+
+
