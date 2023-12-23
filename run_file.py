@@ -64,7 +64,7 @@ update_text_and_color(second_row, 'Christmas', '#008000')  # Green
 time_label = matrixportal.add_text(
     # text_font=terminalio.FONT,
     text_font = '/fonts/spleen-5x8.bdf',
-    text_position=(matrixportal.graphics.display.width -25, 0 + 5),  # Adjust X position as needed
+    text_position=(matrixportal.graphics.display.width -50, 0 + 5),  # Adjust X position as needed
 )
 
 
@@ -90,7 +90,7 @@ while True:
 
 
     # if current_time.hour + 1 == 8 and current_time.minute < 1 and current_time.second < 30:
-    if current_time.hour + 1 == 21 and current_time.minute < 15 and current_time.second < 30:
+    if current_time.hour + 1 == 21 and current_time.minute == 15 and current_time.second < 30:
 
         print('Reset device...')
 
