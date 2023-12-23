@@ -90,7 +90,7 @@ while True:
 
 
     # if current_time.hour + 1 == 8 and current_time.minute < 1 and current_time.second < 30:
-    if current_time.hour + 1 == 21 and current_time.minute < 8 and current_time.second < 30:
+    if current_time.hour + 1 == 21 and current_time.minute < 9 and current_time.second < 30:
 
         print('Reset device...')
 
