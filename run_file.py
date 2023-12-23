@@ -98,7 +98,6 @@ while True:
 
 
     if current_time.hour + 1 == 8 and current_time.minute == 0 and current_time.second < 30:
-
         # Clear previous messages
         matrixportal.set_text("", index=time_label)
         matrixportal.set_text("", index=first_row)
