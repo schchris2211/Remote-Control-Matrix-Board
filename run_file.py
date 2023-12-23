@@ -89,8 +89,8 @@ while True:
         last_displayed_time = formatted_time
 
 
-    if current_time.hour + 1 == 8 and current_time.minute < 1 and current_time.second < 30:
-    # if current_time.hour + 1 == 16 and current_time.minute < 26 and current_time.second < 30:
+    # if current_time.hour + 1 == 8 and current_time.minute < 1 and current_time.second < 30:
+    if current_time.hour + 1 == 21 and current_time.minute < 5 and current_time.second < 30:
 
         print('Reset device...')
 
