@@ -5,7 +5,7 @@ A tool to keep people connected.
 ## Description
 
 This project remotely controls the display of an Adafruit M4 Matrix Board. The top-level module, main.py, handles all connectivity 
-logic and executes a display file, run_file.py, after downloading it from a GitHub repository if the update_info Text file determines so. 
+logic and executes a display file, display.py, after downloading it from a GitHub repository if the update_info Text file determines so. 
 
 The Matrix Board is reset every morning to check the repository for updates. This can also be done by resetting the board manually.
 
