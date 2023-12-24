@@ -64,7 +64,7 @@ update_text_and_color(second_row, 'Christmas', '#008000')  # Green
 time_label = matrixportal.add_text(
     # text_font=terminalio.FONT,
     text_font = '/fonts/spleen-5x8.bdf',
-    text_position=(matrixportal.graphics.display.width -25, 0 + 5),  # Adjust X position as needed
+    text_position=(matrixportal.graphics.display.width -50, 0 + 5),  # Adjust X position as needed
 )
 
 
@@ -121,7 +121,6 @@ while True:
         # Odd second: Set another color
         matrixportal.set_text_color(colors[0]['color_2'], index=first_row)
         matrixportal.set_text_color(colors[0]['color_1'], index=second_row)
-
 
 
 
