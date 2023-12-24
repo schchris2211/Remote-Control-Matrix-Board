@@ -45,7 +45,7 @@ first_row = matrixportal.add_text(
     text_font=terminalio.FONT,
     # text_font = '/fonts/spleen-5x8.bdf',
     text_position=(First_row_X, First_row_Y),
-    scrolling=True,
+    scrolling=False,
     text_scale=1,
 )
 
@@ -54,7 +54,7 @@ second_row = matrixportal.add_text(
     text_font=terminalio.FONT,
     # text_font = '/fonts/spleen-5x8.bdf',
     text_position=(Second_row_X, Second_row_Y),
-    scrolling=True,
+    scrolling=False,
     text_scale=1,
 )
 
