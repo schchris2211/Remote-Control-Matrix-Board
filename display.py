@@ -57,15 +57,14 @@ second_row = matrixportal.add_text(
 )
 
 
-# update_text_and_color(first_row, 'Merry', '#cf2727')  # Red
-update_text_and_color(first_row, 'Merry', '#008000')  # Red
+update_text_and_color(first_row, 'Merry', '#cf2727')  # Red
 update_text_and_color(second_row, 'Christmas', '#008000')  # Green
 
 
 time_label = matrixportal.add_text(
     # text_font=terminalio.FONT,
     text_font = '/fonts/spleen-5x8.bdf',
-    text_position=(matrixportal.graphics.display.width -50, 0 + 5),
+    text_position=(matrixportal.graphics.display.width -25, 0 + 5),
 )
 
 
