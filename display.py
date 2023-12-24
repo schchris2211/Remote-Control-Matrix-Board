@@ -1,4 +1,4 @@
-achtimport gc
+import gc
 import board
 import time
 import displayio
