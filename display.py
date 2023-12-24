@@ -33,8 +33,6 @@ def update_text_and_color(index, text, color):
 
 #---------------------------------- Run Script ----------------------------------
 
-matrixportal = MatrixPortal(status_neopixel=board.NEOPIXEL, debug=True, rotation = 180)
-
 #Text Position
 First_row_X = 2
 First_row_Y = 14
