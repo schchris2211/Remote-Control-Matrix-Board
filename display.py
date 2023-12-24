@@ -36,7 +36,7 @@ def update_text_and_color(index, text, color):
 
 #Text Position
 First_row_X = 2
-First_row_Y = 12
+First_row_Y = 14
 Second_row_X = 5
 Second_row_Y = 27
 
