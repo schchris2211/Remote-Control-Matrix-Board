@@ -42,8 +42,8 @@ Second_row_Y = 27
 
 # Create a new label for 'Merry'
 first_row = matrixportal.add_text(
-    # text_font=terminalio.FONT,
-    text_font = '/fonts/spleen-5x8.bdf',
+    text_font=terminalio.FONT,
+    # text_font = '/fonts/spleen-5x8.bdf',
     text_position=(First_row_X, First_row_Y),
     scrolling=False,
     text_scale=1,
@@ -51,16 +51,16 @@ first_row = matrixportal.add_text(
 
 # Create a new label for 'Christmas'
 second_row = matrixportal.add_text(
-    # text_font=terminalio.FONT,
-    text_font = '/fonts/spleen-5x8.bdf',
+    text_font=terminalio.FONT,
+    # text_font = '/fonts/spleen-5x8.bdf',
     text_position=(Second_row_X, Second_row_Y),
     scrolling=False,
     text_scale=1,
 )
 
 
-update_text_and_color(first_row, 'Frohe', '#cf2727')  # Red
-update_text_and_color(second_row, 'Weihnachten', '#008000')  # Green
+update_text_and_color(first_row, 'Merry', '#cf2727')  # Red
+update_text_and_color(second_row, 'Christmas', '#008000')  # Green
 
 
 time_label = matrixportal.add_text(
