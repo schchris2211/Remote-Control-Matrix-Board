@@ -1,1 +1,1 @@
-adafruit_ssd1327.mpy
+https://github.com/schchris2211/Remote-Control-Matrix-Board/blob/main/lib_update/adafruit_ssd1327.mpy
