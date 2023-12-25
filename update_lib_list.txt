@@ -1,3 +1,10 @@
-https://github.com/schchris2211/Remote-Control-Matrix-Board/blob/main/lib_update/adafruit_ssd1327.mpy  file
-https://github.com/schchris2211/Remote-Control-Matrix-Board/blob/71dfb2a57f94532698c2ec74b5b31dcaa82235cf/lib_update/adafruit_si7021/__init__.mpy  adafruit_si7021
-https://github.com/schchris2211/Remote-Control-Matrix-Board/blob/71dfb2a57f94532698c2ec74b5b31dcaa82235cf/lib_update/adafruit_si7021/i2c_bits.mpy  adafruit_si7021
+file 1  https://github.com/schchris2211/Remote-Control-Matrix-Board/blob/main/lib_update/adafruit_ssd1327.mpy  file
+file 2  https://github.com/schchris2211/Remote-Control-Matrix-Board/blob/71dfb2a57f94532698c2ec74b5b31dcaa82235cf/lib_update/adafruit_si7021/__init__.mpy  adafruit_si7021
+file 3  https://github.com/schchris2211/Remote-Control-Matrix-Board/blob/71dfb2a57f94532698c2ec74b5b31dcaa82235cf/lib_update/adafruit_si7021/i2c_bits.mpy  adafruit_si7021
+file 4 
+file 5
+file 6
+file 7
+file 8
+file 9
+file 10
