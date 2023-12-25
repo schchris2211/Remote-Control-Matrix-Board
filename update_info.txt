@@ -1,2 +1,2 @@
 update_code = False
-update_libs = False
+update_libs = True
