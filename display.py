@@ -58,8 +58,8 @@ second_row = matrixportal.add_text(
 )
 
 
-update_text_and_color(first_row, 'Merry', '#cf2727')  # Red
-update_text_and_color(second_row, 'Christmas', '#008000')  # Green
+update_text_and_color(first_row, 'Happy', '#cf2727')  # Red
+update_text_and_color(second_row, 'Birthday!', '#008000')  # Green
 
 
 time_label = matrixportal.add_text(
