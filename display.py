@@ -58,8 +58,8 @@ second_row = matrixportal.add_text(
 )
 
 
-update_text_and_color(first_row, 'Visca', '#004a62')  # Red
-update_text_and_color(second_row, 'Barça!', '#ce1126')  # Green
+update_text_and_color(first_row, 'Visca', '#004a62')  # Blue
+update_text_and_color(second_row, 'Barça!', '#ce1126')  # Garnet
 
 
 time_label = matrixportal.add_text(
@@ -80,7 +80,7 @@ reset_label = matrixportal.add_text(
 SCROLL_DELAY = 0.03
 
 colors = [
-    { 'color_1': '#008000',  'color_2': '#cf2727'}
+    { 'color_1': '#004a62',  'color_2': '#ce1126'}
 ]
 
 
