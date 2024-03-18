@@ -58,8 +58,8 @@ second_row = matrixportal.add_text(
 )
 
 
-update_text_and_color(first_row, 'Geht', '#cf2727')  # Red
-update_text_and_color(second_row, 'Laufen <3', '#008000')  # Green
+update_text_and_color(first_row, 'Visca', '#004a62')  # Red
+update_text_and_color(second_row, 'Barça!', '#ce1126')  # Green
 
 
 time_label = matrixportal.add_text(
