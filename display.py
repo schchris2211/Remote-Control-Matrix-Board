@@ -59,7 +59,7 @@ second_row = matrixportal.add_text(
 
 
 update_text_and_color(first_row, 'Visca', '#004a62')  # Blue
-update_text_and_color(second_row, 'Barça!', '#ce1126')  # Garnet
+update_text_and_color(second_row, 'Barca!', '#ce1126')  # Garnet
 
 
 time_label = matrixportal.add_text(
