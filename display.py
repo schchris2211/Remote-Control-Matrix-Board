@@ -89,7 +89,7 @@ last_displayed_time = None
 
 while True:
     current_time = get_current_time()
-    formatted_time = "{:02}:{:02}".format(current_time.hour+1, current_time.minute)
+    formatted_time = "{:02}:{:02}".format(current_time.hour+2, current_time.minute)
 
     # Update the display only if the time has changed
     if formatted_time != last_displayed_time:
